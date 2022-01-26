@@ -39,7 +39,7 @@ header{
 
 
 .contenedorLogo{
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: center;
     width: 100%;
