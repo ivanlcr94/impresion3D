@@ -6,70 +6,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impresión 3D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
-        <div class="contenedorLogo">
-            <img src="./imagenes/logoImpresión3D.png" alt="logo impresión 3D" class="logo">
-        </div>
-        <nav class="navBar">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./paginas/trabajos.html">Trabajos</a></li>
-                <li><a href="./paginas/servicios.html">Servicios</a></li>
-                <li><a href="./paginas/productos.html">Productos</a></li>
-                <li><a href="./paginas/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark shadow bgcolor ">
+            <div class="container-md">
+                <a class="navbar-brand" href="./index.html">IMPRESIÓN<span class="span3D">3D</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="./paginas/trabajos.html">Trabajos</a>
+                        <a class="nav-link" href="./paginas/servicios.html">Servicios</a>
+                        <a class="nav-link" href="./paginas/productos.html">Productos</a>
+                        <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="contenedorArticuloPrincipal">
-            <div class="articuloPrincipal">
-                <h1>Imprimimos tus ideas </h1>
-                <p>En comparación con los procesos de fabricación convencionales, casi no existen límites en la
-                    fabricación aditiva. </p>
-            </div>
-            <div>
-                <img src="./imagenes/impresora3d.png" alt="impresora3d">
-            </div>
-        </section>
-        <section class="contenedorArticuloSecundario">
-            <div class="articuloSecundario">
-                <h2> Tiempo de comercialización más rápido</h2>
-                <p>Con la ayuda de la creación rápida de prototipos y la producción sin herramientas, su proceso de
-                    desarrollo e innovación se acelerará significativamente.</p>
+        <img class="imagenPrincipal" src="./imagenes/Imagen1.png" alt="imagen principal impresora3d">
+        <section class="contenedorArticuloPrincipal shadow container">
+            <div class="card row">
+                <div class="card-body col-12">
+                    <h1 class="card-title imprimimosTusIdeas">Imprimimos tus ideas</h1>
+                    <p>La impresión 3D permite materializar objetos de una manera simple y económica ampliando los
+                        límites del diseño y ofreciendo innumerables posibilidades para la industria, la medicina y
+                        prácticamente todas las disciplinas.</p>
+                </div>
             </div>
         </section>
-        <section class="necesitasInspiración">
-            <h3>¿Necesitas inspiración?</h3>
-            <p>Encuentra diseños que se adapten a lo que estas buscando, en las redes mas grandes creadas
-                por 3Dmakers; donde podrás encontrar miles de diseños gratuitos y de pago.</p>
-        </section>
-        <section class="thingiverseArticulo">
-            <img class="imagenLogoTh" src="./imagenes/logoThengiverse.jpg" alt="logo thingiverse">
-            <div class="textoTh">
-                <ul>
-                    <li><a href="https://www.thingiverse.com" target="_blank">www.Thingiverse.com</a></li>
-                </ul>
-                <p>Podras encontrar miles de diseños gratuitos de todo tipo.</p>
-            </div>
-            <img class="imagenTh" src="./imagenes/imagenThengiverse.png" alt="imagen Thingiverse.com">
+
+        <section class="contenedorArticuloSecundario container">
+            <div class="row justify-content-center align-items-center ">
+                <div class="articuloSecundario col-12 col-md-6 col-lg-6">
+                    <h2> Tiempo de comercialización más rápido</h2>
+                    <p>Con la ayuda de la creación rápida de prototipos y la producción sin herramientas, su proceso de
+                        desarrollo e innovación se acelerará significativamente.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 ">
+                    <img class="imgArticuloSecundario" src="./imagenes/tiempoDeComersalizacion.jpg" alt="">
+                </div>
             </div>
         </section>
-        <section class="cultsArticulo">
-            <img class="imagenlogoCu" src="./imagenes/logoCults.png" alt="logo cults">
-            <div class="textoCu">
-                <ul>
-                    <li><a href="https://www.cults3d.com" target="_blank">www.Cults3D.com</a></li>
-                </ul>
-                <p>Podras encontrar miles de diseños gratuitos y de pago de todo tipo.</p>
-            </div>
-            <img class="imagenCu" src="./imagenes/imagenCults.jpg" alt="imagen Culst.com">
+
+        <section>
+            <h3 class="textoLaImpresión">La impresión 3D es una nueva forma de manufactura que expande los límites de la
+                producción de piezas en pequeña o gran escala.</h3>
+            <h4 class="textoComoTrabajamos">¿Cómo trabajamos?</h4>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 contenedorPasosComoTrabajamos">
+                    <img src="./imagenes/ícono_paso1-150x150.png" class="iconosComoTrabajamos"
+                        alt="icono pasos de trabajo uno">
+                    <P class="textoPasosComoTrabajamos">PASO 1</P>
+                    <p class="">Lo más importante es tu idea. Envianos tu archivo 3D o podemos asesorarte y modelarlo
+                        nosotros. Contactarnos es el primer paso para empezar tu proyecto.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 contenedorPasosComoTrabajamos ">
+                    <img src="./imagenes/ícono_paso2-150x150.png" class="iconosComoTrabajamos"
+                        alt="icono pasos de trabajo dos">
+                    <p class="textoPasosComoTrabajamos">PASO 2</p>
+                    <p class="">Con el modelo 3D listo, ponemos en funcionamiento nuestras impresoras. Gracias a nuestra
+                        granja de impresión 3D podemos obtener gran cantidad de
+                        piezas en poco tiempo.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 contenedorPasosComoTrabajamos ">
+                    <img src="./imagenes/ícono_paso3-150x150.png" class="iconosComoTrabajamos"
+                        alt="icono pasos de trabajo tres">
+                    <p class="textoPasosComoTrabajamos">PASO 3</p>
+                    <p class="">Entregamos en cualquier lugar del país, en el tiempo y forma acordados. También podés
+                        venir a retirarlo personalmente en nuestro taller.</p>
+                </div>
             </div>
         </section>
+
+        <section class="container-fluid queEsLaImpresion3d">
+            <div class="row">
+                <div class="col-12">
+                    <h3>¿Qué es la impresión 3D?</h3>
+                    <P>La impresión 3D es un proceso de fabricación de aditivos que crea un objeto físico a partir de un
+                        diseño digital. Existen diferentes tecnologías y materiales con los que podés imprimir en 3D,
+                        pero todos se basan en el mismo principio: un modelo digital se convierte en un objeto físico
+                        sólido tridimensional mediante la adición de material capa por capa.</P>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contenedorListaQueEsLaImpresion3d">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 listaQueEsLaImpresion3d ">
+                    <h4>¿Cómo funciona?</h4>
+                    <ul>
+                        <li>
+                            <p>El proceso de impresión FDM (Modelado por Deposición Fundida) comienza con un diseño
+                                digital y la selección del material a utilizar, llamado filamento.</p>
+                        </li>
+                        <li>
+                            <p>El filamento es guiado desde el carretel al extrusor de la impresora 3D que funde el
+                                material.</p>
+                        </li>
+                        <li>
+                            <p>Una vez fundido, el material puede ser extruido en una ruta específica y predeterminada
+                                creada por el software en la computadora.</p>
+                        </li>
+                        <li>
+                            <p>A medida que el material se extruye capa por capa, se enfría y se solidifica,
+                                proporcionando la base para la siguiente capa de material hasta que se finaliza el
+                                objeto.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 ContenedorImagenImpresora3d">
+                    <img class="imagenImpresora3d" src="./imagenes/serv_y_prod_1.png" alt="imagen de impresora 3d">
+                </div>
+            </div>
+        </section>
+
+        <section class="necesitasInspiración container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h5>¿Necesitas inspiración?</h5>
+                    <p>Encuentra diseños que se adapten a lo que estas buscando, en las redes mas grandes creadas
+                        por 3Dmakers; donde podrás encontrar miles de diseños gratuitos y de pago.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contenedorCards">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 justify-content-center align-items-center contenedorCardThengiverse">
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="./imagenes/imagenThengiverse.png" class="card-img-top" alt="imagen de thengiverse">
+                        <div class="card-body">
+                            <h5 class="card-title">Thengiverse</h5>
+                            <p class="card-text">Podras encontrar miles de diseños gratuitos de todo tipo.</p>
+                            <a href="https://www.thingiverse.com" target="_blank" class="btn btn-primary">ir a la web</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 justify-content-center align-items-center contenedorCardCults">
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="./imagenes/imagenCults.jpg" class="card-img-top" alt="imagen de thengiverse">
+                        <div class="card-body">
+                            <h5 class="card-title">Cults</h5>
+                            <p class="card-text">Podras encontrar miles de diseños gratuitos y pago de todo tipo.</p>
+                            <a href="https://www.cults3d.com" target="_blank" class="btn btn-primary">ir a la web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
     <aside class="logoWhatsapp">
         <a href="https://www.whatsapp.com/" target="_blank"><img src="./imagenes/whatsappLogo.png"
@@ -83,6 +184,12 @@
             <li><a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
