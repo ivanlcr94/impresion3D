@@ -30,7 +30,7 @@ header{
 
 footer{
     background-color: rgb(32, 31, 31);
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -65,13 +65,28 @@ footer p {
 /* INICIO ASIDE */
 
 .logoWhatsapp img{
-    display: none;
     width: 50px;
     height: 50px;
-    position: relative;
     left: 80%;
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
+}
+
+@media only screen and (min-width:768px){
+    .logoWhatsapp img{
+        left: 90%;
+    }
+      
+}
+
+@media only screen and (min-width:1024px){
+    .logoWhatsapp img{
+        width: 50px;
+        height: 50px;
+        left: 95%;
+
+    }
+      
 }
 
 /* FIN ASIDE */
@@ -148,7 +163,8 @@ footer p {
 
 
 .contenedorListaQueEsLaImpresion3d{
-    padding: 50px 0px 50px 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .listaQueEsLaImpresion3d h4{
@@ -164,11 +180,6 @@ footer p {
 
 .imagenImpresora3d{
     width: 70%;
-}
-
-.logoWhatsapp a img{
-    width: 100px;
-    height: 100px;
 }
 
 .necesitasInspiración{
@@ -205,3 +216,4 @@ footer p {
 }
 
 /* FIN INDEX HTML */
+
