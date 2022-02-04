@@ -227,7 +227,7 @@ footer p {
 
 .contenedorGaleriaDeImagenes{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 @media only screen and (min-width:1024px){
@@ -236,7 +236,7 @@ footer p {
     } 
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
     .contenedorGaleriaDeImagenes{
         width: 70%;
     } 
@@ -305,6 +305,9 @@ footer p {
 }
 
 .CardsProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;  
 }
