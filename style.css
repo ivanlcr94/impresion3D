@@ -161,7 +161,6 @@ footer p {
     margin-top: 40px;
 }
 
-
 .contenedorListaQueEsLaImpresion3d{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -172,7 +171,7 @@ footer p {
     text-align: center;
 }
 
-.ContenedorImagenImpresora3d{
+.contenedorImagenImpresora3d{
     display: flex;
     justify-content: center;
     align-items: center;
