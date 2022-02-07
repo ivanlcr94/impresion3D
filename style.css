@@ -203,12 +203,20 @@ footer p {
     margin-bottom: 60px;
 }
 
+.cardThengiverse:hover{
+    background-color: rgba(0, 255, 255, 0.377);
+}
+
 .contenedorCardCults{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.cardCults:hover{
+    background-color: rgba(137, 43, 226, 0.329);
 }
 
 .cultsArticulo{
@@ -230,15 +238,15 @@ footer p {
     margin-bottom: 150px;
 }
 
-@media only screen and (min-width:1024px){
-    .contenedorGaleriaDeImagenes{
-        width: 50%;
-    } 
-}
-
 @media only screen and (min-width:768px){
     .contenedorGaleriaDeImagenes{
         width: 70%;
+    } 
+}
+
+@media only screen and (min-width:1024px){
+    .contenedorGaleriaDeImagenes{
+        width: 50%;
     } 
 }
 
