@@ -1,0 +1,127 @@
+/* INDEX */
+
+.imagenPrincipal{
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.37);
+}
+
+
+.contenedorArticuloPrincipal{
+    margin-top: -3%;
+    margin-bottom: 60px;
+
+    .tituloPrincipal{
+        color: rgb(69, 104, 117);  
+    }
+}
+
+
+.contenedorArticuloSecundario{
+    padding: 20px;
+}
+
+
+.textoLaImpresión{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.textoComoTrabajamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.iconosComoTrabajamos{
+    width: 100px;
+    height: 100px;
+}
+
+.contenedorPasosComoTrabajamos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+}
+
+.textoPasosComoTrabajamos{
+    color: rgb(58, 139, 214);
+    font-weight: 600;
+}
+
+.queEsLaImpresion3d{
+    background-color: $colorPrimario;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contenedorListaQueEsLaImpresion3d{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .listaQueEsLaImpresion3d h4{
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .contenedorImagenImpresora3d{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .imagenImpresora3d{
+            width: 70%;
+        }
+    }
+}
+
+
+.necesitasInspiración{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    & h5{
+        color: gray;
+        font-size: 2rem;
+    }
+}
+
+
+.contenedorCardThengiverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .cardThengiverse:hover{
+        background-color: rgba(0, 255, 255, 0.377);
+    }
+}
+
+
+
+.contenedorCardCults{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .cardCults:hover{
+        background-color: rgba(137, 43, 226, 0.329);
+    }
+}

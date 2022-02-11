@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+/* INICIO HEADER */
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  border-bottom: #0d8af0 solid 5px; }
+  header nav div .span3D {
+    color: #0d8af0; }
+  header nav div #navbarNavAltMarkup {
+    justify-content: end;
+    margin: 0% 5% 0% 0%; }
+
+/* FIN HEADER */
+/* INICIO ASIDE */
+.logoWhatsapp img {
+  width: 50px;
+  height: 50px;
+  left: 80%;
+  position: fixed;
+  bottom: 5%; }
+
+@media only screen and (min-width: 768px) {
+  .logoWhatsapp img {
+    left: 90%; } }
+
+@media only screen and (min-width: 1024px) {
+  .logoWhatsapp img {
+    width: 50px;
+    height: 50px;
+    left: 95%; } }
+
+/* FIN ASIDE */
+/* INICIO FOOTER */
+footer {
+  background-color: #201f1f;
+  padding: 30px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column; }
+  footer p {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px; }
+  footer ul {
+    display: flex;
+    gap: 1rem; }
+    footer ul li a i {
+      color: grey;
+      font-size: 2rem;
+      cursor: pointer; }
+      footer ul li a i:hover {
+        color: #fff; }
+
+/* FIN FOOTER */
+/* INDEX */
+.imagenPrincipal {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.37); }
+
+.contenedorArticuloPrincipal {
+  margin-top: -3%;
+  margin-bottom: 60px; }
+  .contenedorArticuloPrincipal .tituloPrincipal {
+    color: #456875; }
+
+.contenedorArticuloSecundario {
+  padding: 20px; }
+
+.textoLaImpresión {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+  font-size: 20px;
+  color: gray; }
+
+.textoComoTrabajamos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.iconosComoTrabajamos {
+  width: 100px;
+  height: 100px; }
+
+.contenedorPasosComoTrabajamos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px; }
+
+.textoPasosComoTrabajamos {
+  color: #3a8bd6;
+  font-weight: 600; }
+
+.queEsLaImpresion3d {
+  background-color: #0d8af0;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px; }
+
+.contenedorListaQueEsLaImpresion3d {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .contenedorListaQueEsLaImpresion3d .listaQueEsLaImpresion3d h4 {
+    padding: 20px 0px 20px 0px;
+    text-align: center; }
+  .contenedorListaQueEsLaImpresion3d .contenedorImagenImpresora3d {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contenedorListaQueEsLaImpresion3d .contenedorImagenImpresora3d .imagenImpresora3d {
+      width: 70%; }
+
+.necesitasInspiración {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .necesitasInspiración h5 {
+    color: gray;
+    font-size: 2rem; }
+
+.contenedorCardThengiverse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .contenedorCardThengiverse .cardThengiverse:hover {
+    background-color: rgba(0, 255, 255, 0.377); }
+
+.contenedorCardCults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .contenedorCardCults .cardCults:hover {
+    background-color: rgba(137, 43, 226, 0.329); }
+
+/* TRABAJOS */
+.articuloInicioTrabajos {
+  text-align: center;
+  margin-top: 30px; }
+
+.contenedorGaleriaDeImagenes {
+  margin-top: 150px;
+  margin-bottom: 150px; }
+
+@media only screen and (min-width: 768px) {
+  .contenedorGaleriaDeImagenes {
+    width: 70%; } }
+
+@media only screen and (min-width: 1024px) {
+  .contenedorGaleriaDeImagenes {
+    width: 50%; } }
+
+/* SERVICIOS */
+.articuloInicioServicios {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px; }
+
+.servicioImpresión3d {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  .servicioImpresión3d .textoServicioImpresión3d {
+    text-align: center; }
+  .servicioImpresión3d .imagenServicioImpresión3d {
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+
+.servicioDiseño3d {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  .servicioDiseño3d .textoServicioDiseño3d {
+    text-align: center; }
+  .servicioDiseño3d .imagenServicioDiseño3d {
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+
+@media only screen and (min-width: 320px) {
+  .servicioDiseño3d {
+    flex-direction: row-reverse; } }
+
+/* PRODUCTOS */
+.articuloInicioProductos {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.CardsProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* CONTACTO */
+.formularioContacto {
+  margin-bottom: 70px; }
+  .formularioContacto div h2 {
+    text-align: center; }
+
+.dondeNosEncontramos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px; }
+  .dondeNosEncontramos h3 {
+    text-align: center; }
+  .dondeNosEncontramos .dondeNosEncontramos iframe {
+    width: 90%; }
+
+@media only screen and (min-width: 768px) {
+  .dondeNosEncontramos iframe {
+    width: 200%; } }

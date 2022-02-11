@@ -1,0 +1,23 @@
+/* TRABAJOS */
+
+.articuloInicioTrabajos{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedorGaleriaDeImagenes{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+@media only screen and (min-width:768px){
+    .contenedorGaleriaDeImagenes{
+        width: 70%;
+    } 
+}
+
+@media only screen and (min-width:1024px){
+    .contenedorGaleriaDeImagenes{
+        width: 50%;
+    } 
+}
