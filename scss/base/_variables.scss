@@ -1,2 +1,34 @@
 $colorPrimario: rgb(13, 138, 240);
 $colorFooter: rgb(32, 31, 31);
+
+
+/* map */
+
+$font-weights: (
+    regular: 300,
+    medium: 450,
+    bold: 700,
+);
+
+/* extends */ 
+
+%flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* mixins */
+
+@mixin flexboxCenter ($direction, $justyfi, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justyfi;
+    align-items: $align;
+    
+}
+
+

@@ -1,0 +1,14 @@
+SEO - Search Engine Optimization
+
+Colocación de meta:
+
+keywords: en todos los html.
+description: en todos los html (con descripciones para cada uno de ellos dependiendo de su contenido).
+
+Sitemap:
+
+Se coloco sitemap.xml creado en http://www.sitemaps.org
+
+comments:
+
+los html desde el inicio fueron creados con etiquetas h1 y semantica html.

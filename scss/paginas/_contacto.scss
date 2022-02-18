@@ -9,10 +9,7 @@
 }
 
 .dondeNosEncontramos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %flexColumn;
     margin-bottom: 70px;
 
     & h3{

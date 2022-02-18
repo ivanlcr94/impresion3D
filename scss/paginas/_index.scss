@@ -97,6 +97,10 @@
         color: gray;
         font-size: 2rem;
     }
+
+    & p{
+        font-weight: map-get($font-weights, medium );
+    }
 }
 
 
