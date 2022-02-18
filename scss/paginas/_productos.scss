@@ -7,7 +7,7 @@
 }
 
 .CardsProductos{
-    @include flexboxCenter(column, center, center)
+    @include flexboxCenter(column, center, center);
     margin-top: 50px;
     margin-bottom: 50px;  
 }
