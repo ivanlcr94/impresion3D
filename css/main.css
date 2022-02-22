@@ -196,7 +196,8 @@ footer {
   .servicioImpresión3d .imagenServicioImpresión3d {
     width: 100%;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    /* border-radius: 10px; */ }
 
 .servicioDiseño3d {
   justify-content: center;
@@ -205,10 +206,29 @@ footer {
   margin-bottom: 70px; }
   .servicioDiseño3d .textoServicioDiseño3d {
     text-align: center; }
+    .servicioDiseño3d .textoServicioDiseño3d p span {
+      font-weight: 600; }
   .servicioDiseño3d .imagenServicioDiseño3d {
     width: 100%;
     justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */ }
+
+.archivosFormatos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center; }
+  .archivosFormatos .contenedorImagen {
+    display: flex;
+    justify-content: center;
     align-items: center; }
+  .archivosFormatos .contenedorTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
 
 @media only screen and (min-width: 320px) {
   .servicioDiseño3d {

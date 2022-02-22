@@ -20,6 +20,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+        /* border-radius: 10px; */
     }
 }
 
@@ -32,12 +33,38 @@
 
     .textoServicioDiseño3d{
         text-align: center;
+
+        p span{
+            font-weight: 600;
+        }
     }
     
     .imagenServicioDiseño3d{
         width: 100%;
         justify-content: center;
         align-items: center;
+        /* border-radius: 10px; */
+    }
+}
+
+.archivosFormatos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+
+    .contenedorImagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorTexto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
