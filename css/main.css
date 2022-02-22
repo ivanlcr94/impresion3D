@@ -185,25 +185,33 @@ footer {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 70px; }
+  .articuloInicioServicios p {
+    color: gray;
+    font-size: 20px; }
 
 .servicioImpresión3d {
+  background-color: #fafafa;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .servicioImpresión3d .textoServicioImpresión3d {
     text-align: center; }
   .servicioImpresión3d .imagenServicioImpresión3d {
     width: 100%;
     justify-content: center;
-    align-items: center;
-    /* border-radius: 10px; */ }
+    align-items: center; }
 
 .servicioDiseño3d {
+  background-color: #fafafa;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .servicioDiseño3d .textoServicioDiseño3d {
     text-align: center; }
     .servicioDiseño3d .textoServicioDiseño3d p span {
@@ -211,8 +219,7 @@ footer {
   .servicioDiseño3d .imagenServicioDiseño3d {
     width: 100%;
     justify-content: center;
-    align-items: center;
-    /* border-radius: 10px; */ }
+    align-items: center; }
 
 .archivosFormatos {
   margin-top: 50px;
@@ -229,6 +236,10 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center; }
+
+.contenedorAccordion {
+  margin-top: 30px;
+  margin-bottom: 60px; }
 
 @media only screen and (min-width: 320px) {
   .servicioDiseño3d {
